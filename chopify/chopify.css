@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 20px;
+    margin: 10px;
+    background: radial-gradient(white, rgb(238, 236, 139));
+  
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 40px;
+   
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.mid{
+    padding: 50px;
+    margin: 50px;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-1{
+    flex: 1;
+    margin-bottom: 60px;
+  
+    flex-direction: column;
+}
+.col-1 p{
+    margin-top: 8px;
+}
+.col-1 p{
+   
+    font-size: 20px;
+}
+.health{
+    margin-bottom: 60px;
+}
+.health p{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 30px;
+   
+    color: orangered;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    justify-content: center;
+}
+.col-3 img{
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.col-1 p a{
+    border: 1px solid red;
+    height: 30px;
+    padding-top: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    
+    
+}
+.eat p{
+    padding-top: 10px;
+}
+.btn{
+    background: orangered;
+    height: 20px;
+    color: #fff;
+    padding: 8px 10px;
+    
+    border-radius: 30px;
+}
+h2{
+    font-size: 30px;
+    
+}
+.chop{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.chop img{
+    width: 50px;
+    border: 1px solid orangered;
+    border-radius: 100%;
+    margin-top: 100px;
+}
+.col-2 img{
+    
+    width: 250px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chop h2{
+    margin-top: 100px;
+}
